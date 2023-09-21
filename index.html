@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: Center;
+}
+</style>
+<script src=""></script>
+<body>
+
+<!-- Top Nav -->
+<div class="topnav">
+  <p style="font-family: Comic Sans MS">
+  <a href="#about">About me</a>
+  <a href="#work">Work Experience</a>
+  <a href="#contact">Contact me</a>
+</div>
+
+
+<div class="">
+ <h1 id="top">Callysta's Portfolio!</h1>
+ <p>Working Experience: Some</p>
+ <p>Life Experience: 100%</p>
+ <p>Please Hire Me:</p>
+  <form action='thankyou.html'>
+   Name: <input type='text' name='student'/>
+   <br/>
+   Email: <input type='text' name='email'/>
+   <br/>
+   <input type='submit' value='Click here'/>
+  </form>
+</div>
+
+<img src="images/images.jpg" alt="LA" style="width:100%">
+
+
+<div class="">
+ <h2 id="about">About me</h2>
+ <p style="font-family: Comic Sans MS">I can identify 80% of dog breeds accurately</p>
+ <p><font size= "29">CHIHUAHUA</font></p>
+ <img src="images/hosre.jpg" alt="LA" style="width:100%">
+</div>
+
+<div class="">
+ <h3 id="work">Work Experience</h3>
+ <p>- Wrapping burritos</p>
+ <p>- Making guacamole</p>
+ <p>- Imparting wisdom to children</p> 
+ <img src="images/flowers.jpg" alt="LA" style="width:100%">
+</div>
+
+<div class="container">
+  <div style="text-align:center">
+    <h4 id="contact">Contact Me NOW!</h4>
+  <div class="column">
+
+  <p>Input your message here:</p>
+  </div>
+
+  <form action='thankyou.html'>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+           <br/>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+           <br/>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+           <br/>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write your message.." style="height:170px"></textarea>
+           <br/>
+        <input type="submit" value="Submit">
+           <br/>
+           <br/>
+           <br/>
+           <br/>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Callysta's Portfolio <a href="#top">[Top]</a></p>
+</div>
+
+</body>
+</html>
